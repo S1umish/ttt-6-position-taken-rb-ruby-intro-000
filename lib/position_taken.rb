@@ -11,4 +11,5 @@ def position_taken? (board, index)
   #taken = true
   #end
 #end
-#puts position_taken?(board,1)
+puts position_taken?(board,1)
+puts position_taken?(board,4)
