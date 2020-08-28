@@ -8,3 +8,4 @@ def position_taken? (board, index)
   taken = true
   end
 end
+puts position_taken? (board, 0)
