@@ -2,10 +2,13 @@
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 index = 0
 def position_taken? (board, index)
-  if(board[index] == " " || board[index]== " " || board[index]== nil)
-  taken = false
-  else
-  taken = true
+  ! (board[index] ==  " " || board[index] == "" || board[index] == nil) 
   end
-end
-puts position_taken?(board,1)
+
+  #if(board[index] == " " || board[index]== " " || board[index]== nil)
+  #taken = false
+  #else
+  #taken = true
+  #end
+#end
+#puts position_taken?(board,1)
