@@ -2,9 +2,9 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 def position_taken? (board, index)
-if(board[index] == " " || board[index] == " " || board[index] == nil)
+  if(board[index] == " " || board[index] == " " || board[index] == nil)
   taken = false
-else
+  else
   taken = true
-end
+  end
 end
